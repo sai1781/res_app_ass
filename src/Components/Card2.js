@@ -88,7 +88,7 @@ const Card2= _=> {
         <Typography variant="v6" color="white" >Recipe Search APP</Typography>
       </Stack>
       <Stack direction="row" className="searchNav" >
-        <input type="text" onKeyUp={input} placeholder="search your Movie names here" />
+        <input type="text" onKeyUp={input} placeholder="search your Recipe names here" />
         <button onClick={submit_input} >Search</button>
       </Stack>
       <p className={trigger === false && clicked === true && value !== "chicken" ? "notfound" : "notfound none"} sx={{ color: "green" }}>Not found</p>
